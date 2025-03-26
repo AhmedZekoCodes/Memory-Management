@@ -5,7 +5,6 @@
 #include <stdbool.h>
 #include <assert.h>
 
-
 // You can add other header files if needed
 bool insertInList(int size);
 
