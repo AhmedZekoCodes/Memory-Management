@@ -5,7 +5,6 @@
 //          The main function initializes the pool, inserts objects, retrieves objects, and drops references.
 //          The main function then prints the retrieved object, dumps the pool, and destroys the pool. The main function returns 0.
 //-----------------------------------------
-
 #include "ObjectManager.h"
 #include <stdio.h>
 
