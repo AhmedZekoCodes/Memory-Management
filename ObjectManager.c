@@ -14,7 +14,6 @@ static Ref nextRef = 1;
 // A Memblock holds the relevent information associated with an allocated block of memory by our memory manager
 typedef struct MEMBLOCK MemBlock;
 
-
 // information needed to track our objects in memory
 struct MEMBLOCK
 {
@@ -24,7 +23,6 @@ struct MEMBLOCK
   int count;       // the number of references to this object
   MemBlock *next;  // pointer to next block.  Blocks stored in a linked list.
 };
-
 
 // The blocks are stored in a linked list where the start of the list is pointed to by memBlockStart.
 static MemBlock *memBlockStart; // start of linked list of blocks allocated
